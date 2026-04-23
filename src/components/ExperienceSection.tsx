@@ -129,12 +129,10 @@ const ExperienceSection = () => {
     <section id="experience" className="py-24 px-4 bg-[hsl(var(--section-bg))]">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-foreground font-space-grotesk">
-            Work{" "}
-            <span className="bg-gradient-to-r from-[hsl(202_100%_42%)] to-[hsl(202_85%_28%)] bg-clip-text text-transparent">
-              Experience
-            </span>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            Work Experience
           </h2>
+          <div className="w-24 h-1 bg-[hsl(var(--primary))] mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             4+ years of experience architecting production-grade pipelines and cloud analytics platforms
           </p>
